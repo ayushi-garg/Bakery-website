@@ -2,9 +2,9 @@
 Complete front end of a bakery e-commercial website
 
 ## Home Page
-![Screenshot from 2021-05-23 20-17-37](https://user-images.githubusercontent.com/43042767/119265705-47c6c780-bc05-11eb-8869-016acc879334.png)
-![Screenshot from 2021-05-23 20-17-51](https://user-images.githubusercontent.com/43042767/119265708-49908b00-bc05-11eb-9482-003ad26e02db.png)
-![Screenshot from 2021-05-23 20-18-03](https://user-images.githubusercontent.com/43042767/119265710-4a292180-bc05-11eb-96d3-90a4193d29e4.png)
+![Screenshot from 2021-05-23 20-32-58](https://user-images.githubusercontent.com/43042767/119265909-34682c00-bc06-11eb-9f57-c88c42c897b3.png)
+![Screenshot from 2021-05-23 20-33-20](https://user-images.githubusercontent.com/43042767/119265911-3631ef80-bc06-11eb-85a2-a9d5c0c75a25.png)
+![Screenshot from 2021-05-23 20-33-32](https://user-images.githubusercontent.com/43042767/119265912-37631c80-bc06-11eb-8475-2bad4345b7c7.png)
 
 ## Register Page
 ![Screenshot from 2021-05-23 20-16-32](https://user-images.githubusercontent.com/43042767/119265464-7f813f80-bc04-11eb-8f50-0b8ad24e2cf6.png)
