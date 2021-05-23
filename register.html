@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/login1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body> 
+     <!--starting of our nav bar -->
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Our Website!</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                 <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="cart.html">Shop</a>
+                </li>
+                 <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+                </li>
+                 <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="register.html">Register</a>
+                </li>
+                <!--<li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>-->
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            </div>
+        </div>
+        </nav>
+    </div>
+     <!--ending of nav bar -->
+    <div class="container-fluid mt-5">
+        <div class="myCard">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="myLeftCtn"> 
+                        <form class="myForm text-center">
+                            <header>Create new account</header>
+                            <div class="form-group">
+                                <i class="fas fa-user"></i>
+                                <input class="myInput" type="text" placeholder="Username" id="username" required> 
+                            </div>
+
+                            <div class="form-group">
+                                <i class="fas fa-envelope"></i>
+                                <input class="myInput" placeholder="Email" type="text" id="email" required> 
+                            </div>
+
+                            <div class="form-group">
+                                <i class="fas fa-lock"></i>
+                                <input class="myInput" type="password" id="password" placeholder="Password" required> 
+                            </div>
+
+                            <div class="form-group">
+                                <label>
+                                    <input id="check_1" name="check_1"  type="checkbox" required><small> I read and agree to Terms & Conditions</small></input> 
+                                    <div class="invalid-feedback">You must check the box.</div>
+                                </label>
+                            </div>
+
+                            <input type="submit" class="butt" value="CREATE ACCOUNT">
+                            
+                        </form>
+                    </div>
+                </div> 
+                <div class="col-md-6">
+                    <div class="myRightCtn">
+                            <div class="box"><header>Hello Buyers!</header>
+                            
+                            <p>We see our customers as invited guests to a party, 
+                                and we are the hosts. It’s our job every day to
+                                 make every important aspect of the customer
+                                  experience a little bit better..</p>
+                                <input type="button" class="butt_out" value="Learn More"/>
+                            </div>
+                                
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+        <div class="col-12 col-md">
+            
+            <small class="d-block mb-3 text-muted">&copy; 2017-2020</small>
+        </div>
+        <div class="col-6 col-md">
+            <h5>Contact Us</h5>
+            <ul class="list-unstyled text-small">
+            <li>Address/Location</li>
+            <li><font color='grey'>Agra India</font></li>
+            <li>Phone</li>
+            <li><font color='grey'>123456789</font></li>
+            <li>E mail</li>
+            <li><a class="link-secondary" href="#">xyz@gmail.com</a></li>
+            </ul>
+        </div>
+        <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="product.html">Products</a></li>
+            <li><a class="link-secondary" href="index.html">New Arrivals</a></li>
+            <li><a class="link-secondary" href="terms.html">Know More</a></li>
+            <li><a class="link-secondary" href="about.html">team</a></li>
+            </ul>
+        </div>
+        <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="about.html">Team</a></li>
+            <li><a class="link-secondary" href="about.html">About Us</a></li>
+            <li><a class="link-secondary" href="terms.html">Privacy</a></li>
+            <li><a class="link-secondary" href="terms.html">Terms and conditions</a></li>
+            </ul>
+        </div>
+        </div>
+</footer>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+      
+
+ 
+</body>
+</html>
+
